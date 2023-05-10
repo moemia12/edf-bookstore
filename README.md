@@ -15,7 +15,8 @@ Here is the refactored code for the challenge using modern JS features. The chan
 
 Axios is also a good tool for this as it removes the need to parse JSON code. I've included a file which makes use of Axios instead of Fetch/ XMLHttp
 
-//-----------------------------------
+//---------------------------------------------------------------------------------------------------------//
+
 `BookSearchApiClient` is a simple class that makes a call to a http API to retrieve a list of books and return them.
 
 You need to refactor the `BookSearchApiClient` class, and demonstate in `example-client.js` how it would be used. Refactor to what you consider to be production ready code. You can change it in anyway you would like and can use javascript or typescript.
