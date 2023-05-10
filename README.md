@@ -13,7 +13,8 @@ The refactored code can be found in FetchBookSearchApi.js and used the example-c
 - Testing using Jest by unit testing each method and mocking the fetch function to return sample data
 
 
-Axios is also a good tool for this as it removes the need to parse JSON code. I've included another refactored file which makes use of Axios instead of Fetch/ XMLHttp
+Axios is also a good tool for this as it removes the need to parse JSON code. I've included another refactored file which makes use of Axios instead of Fetch/ XMLHttp.
+
 It can be found in AxBookSearchApiClient.js and its methods are called in example-client.js
 
 //---------------------------------------------------------------------------------------------------------//
