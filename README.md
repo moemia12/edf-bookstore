@@ -2,18 +2,19 @@
 
 Hello, 
 
-Here is the refactored code for the challenge using modern JS features. The changes:
+The refactored code can be found in FetchBookSearchApi.js and used the example-client.js call the methods for each API client to perform queries.
 
 - Changed from function to class to take advantage of OOP
 - Offers the ability to use inheritance, allowing new objects to share common properties, methods and easily add other book seller API's or format 
 - Improved usability, flexibility and readability 
-- Using features such as Promises, async/await, and fetch instead of XMLHttpRequest
+- Using modern features such as Promises, async/await, and fetch instead of XMLHttpRequest
 - Handles different payloads by abstracting response parsing logic into a separate function
 - Implementing query types by adding additional methods for each query type, such as getBooksByPublisher, getBooksByYearPublished
 - Testing using Jest by unit testing each method and mocking the fetch function to return sample data
 
 
-Axios is also a good tool for this as it removes the need to parse JSON code. I've included a file which makes use of Axios instead of Fetch/ XMLHttp
+Axios is also a good tool for this as it removes the need to parse JSON code. I've included another refactored file which makes use of Axios instead of Fetch/ XMLHttp
+It can be found in AxBookSearchApiClient.js and its methods are called in example-client.js
 
 //---------------------------------------------------------------------------------------------------------//
 
