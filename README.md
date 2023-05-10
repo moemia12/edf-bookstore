@@ -9,7 +9,7 @@ The refactored code can be found in FetchBookSearchApi.js and used the example-c
 - Improved usability, flexibility and readability 
 - Using modern features such as Promises, async/await, and fetch instead of XMLHttpRequest
 - Handles different payloads by abstracting response parsing logic into a separate function
-- Implementing query types by adding additional methods for each query type, such as getBooksByPublisher, getBooksByYearPublished
+- Implementing query types by adding additional methods for each query type, such as getBooksByPublisher
 - Testing using Jest by unit testing each method and mocking the fetch function to return sample data
 
 
